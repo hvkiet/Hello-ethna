@@ -1,0 +1,112 @@
+﻿.listBox TH
+{   
+    vertical-align: top;
+    text-align: left;
+    padding-top: 3px;
+    padding-left: 15px;
+    font-weight: normal;
+}
+#none
+{   
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+.crHeader
+{
+    height: 30px;
+    /*width: 15%;*/
+    color: #A6A6A6;
+}
+.crColumn
+{
+    width: 10%;
+    word-break: break-all;
+}
+.ciHeader
+{
+    height: 30px;
+    width: 150px;
+    color: #A6A6A6;
+}
+.ciColumn
+{
+    width: 110px;
+}        
+.textAlignRight
+{
+    text-align: right;
+    padding-right: 2px;
+}
+
+.sliderDiv {
+    width: 100%;
+}
+
+.slider {
+    width: 100px;
+    height: 8px;
+    margin: 0px 0px 10px 5px;
+}        
+
+.Gauge {
+    width: 100%;
+}
+
+.Gaugediv {
+    float: left;
+}
+
+.MinGauge {
+    float: left;
+    margin-left: 5px;
+}
+
+.MaxGauge {
+    float: right!important;
+    margin-right: 5px!important;
+}
+
+.menuTemplate {
+    display: none;
+}
+
+.LinkPanel {
+	color: Red;
+	cursor: pointer;
+}
+
+.Symptoms_Medical_Link, .Symptoms_Throat_Link, .BodyPain_Link, Massage_Link, Hyperthermia_Link, Icing_Link, .Comment_Link, .Note_Link, .BreakfastNotTaken_Link, .LunchNotTaken_Link, .DinnerNotTaken_Link, .SnackTaken_Link, .Worries_Bodypart_Link, .Worries_Bodypart_Link1 {
+	color: Red;
+	cursor: pointer;
+}
+
+#ConditioningCareTemplate .Massage_Link, #ConditioningCareTemplate .Hyperthermia_Link, #ConditioningCareTemplate .Icing_Link 
+{
+	color: Red;
+	cursor: pointer;
+}
+
+#ConditioningSymptomsMedicalTemplate, #ConditioningInjuryTemplate, #ConditioningIcingTemplate, #ConditioningBreakfastNotTakenTemplate, #ConditioningLunchNotTakenTemplate, #ConditioningDinnerNotTakenTemplate, #ConditioningSnackTakenTemplate {
+    padding: 20px;
+    border: 3px solid #333;
+    position: absolute;
+    width: auto;
+    background-color: #000
+}
+
+#ConditioningSymptomsMedicalTemplate p, #ConditioningInjuryTemplate p, #ConditioningIcingTemplate p, #ConditioningBreakfastNotTakenTemplate p, #ConditioningLunchNotTakenTemplate p, #ConditioningDinnerNotTakenTemplate p, #ConditioningSnackTakenTemplate p {
+    margin-bottom: 15px;
+}
+
+.menuTemplate {
+    padding: 20px;
+    border: 3px solid #333;
+    position: absolute;
+    width: auto;
+    background-color: #000
+}
+
+.menuTemplate p {
+    margin-bottom: 15px;
+}
